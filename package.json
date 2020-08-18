@@ -1,7 +1,6 @@
 {
   "name": "mywebsite",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d site"
@@ -12,5 +11,13 @@
   "homepage": "https://will-io.github.io/mywebsite",
   "dependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will-io/mywebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/will-io/mywebsite/issues"
+  },
+  "description": ""
 }
